@@ -1,0 +1,36 @@
+{
+	"name": "vuejs-component-lib",
+	"version": "0.1.0",
+	"private": false,
+	"main": "dist/lib/vuejs-component-lib.min.js",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "node build/build-lib.js"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.0.0-beta.6",
+		"@vue/cli-plugin-eslint": "^3.0.0-beta.6",
+		"@vue/cli-service": "^3.0.0-beta.6",
+		"compression-webpack-plugin": "^1.1.11",
+		"eslint": "^4.18.2",
+		"eslint-plugin-vue": "^4.3.0",
+		"extract-text-webpack-plugin": "^3.0.2",
+		"node-sass": "^4.7.2",
+		"optimize-css-assets-webpack-plugin": "^4.0.0",
+		"ora": "^2.0.0",
+		"path": "^0.12.7",
+		"rimraf": "^2.6.2",
+		"sass-loader": "^6.0.6",
+		"uglifyjs-webpack-plugin": "^1.2.4",
+		"vue": "2.5.9",
+		"vue-router": "^2.8.1",
+		"vue-style-loader": "^3.0.1",
+		"vue-template-compiler": "2.5.9"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not ie <= 8"
+	],
+	"dependencies": {}
+}
